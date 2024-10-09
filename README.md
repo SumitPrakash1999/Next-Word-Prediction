@@ -3,20 +3,14 @@ Implemented Next-Word Prediction using MLP, LSTM, and Transformer-based Language
 
 ## **Overview**
 
-This assignment implements three different types of language models: 
+This project implements three different types of language models: 
 1. **Neural Network Language Model (MLP)** based on a 6-gram context.
 2. **LSTM-based Language Model**.
 3. **Transformer Decoder-based Language Model**.
 
 Each of these models is trained on the **Auguste Maquet** dataset, and their performances are evaluated using **perplexity** scores.
 
-The assignment involves tokenizing the input text, using pre-trained GloVe embeddings, and training the models to predict the next word in a sequence. For each model, both validation and test perplexities are calculated and stored in separate files.
-
----
-## Assumptions:-
-
-- For N-gram, the value of N is taken as 6 as the assignment pdf stated to take 5 words for context and 1 for focus word.
-- The Hyperparameter Tuning of Neural Network Language Model is done for only 10 epochs while the actual model was trained for 15 due to time and processing constraints.
+The project involves tokenizing the input text, using pre-trained GloVe embeddings, and training the models to predict the next word in a sequence. For each model, both validation and test perplexities are calculated and stored in separate files.
 
 ---
 
